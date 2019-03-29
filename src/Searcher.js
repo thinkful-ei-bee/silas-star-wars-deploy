@@ -55,7 +55,7 @@ export default class Searcher extends React.Component {
     return (
         <div>
             <form onSubmit={e => this.handleSubmit(e)}>
-                <label for='char-search'></label>
+                <label htmlFor='char-search'></label>
                 <input type='text' name='char-search' onChange={e => this.handleName(e.target.value)}></input>
                 <button type='submit'>Search</button>
             </form>

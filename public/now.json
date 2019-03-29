@@ -1,6 +1,7 @@
 {
   "version": 2,
   "name": "star-wars-display",
+  "alias": "star-wars-display",
   "routes": [
       {
         "src": "^/static/(.*)",
