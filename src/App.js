@@ -1,11 +1,17 @@
 import React from 'react';
+import Searcher from './Searcher'
+import Header from './Header'
 
-function App() {
-  return (
-    <main className='App'>
-      {/* content goes here */}
-    </main>
-  );
+class App extends React.Component {
+
+  render() {
+    return (
+      <main className='App'>
+        <Header />
+        <Searcher />
+      </main>
+    );
+  }
 }
 
 export default App;
